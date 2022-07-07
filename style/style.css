@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Epilogue&family=Inconsolata:wdth,wght@100,400;102,634&display=swap");
-/**
-* Desktop style
-*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Inconsolata:wdth,wght@100,400;102,634&family=Stick+No+Bills&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,36 +8,59 @@
 }
 
 body {
-  font-family: "Chakra Petch", sans-serif;
-  height: 100vh;
+  font-family: "Stick No Bills", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/**
+* Desktop style
+*/
 .container {
   margin: auto;
   width: 90rem;
   height: 200rem;
+  position: relative;
 }
 .container .homePart {
-  height: 50rem;
+  height: 100vh;
   width: 90rem;
   background-color: #f4eede;
 }
+.container .homePart .greetings {
+  position: absolute;
+  top: 8rem;
+  left: 5rem;
+}
+.container .homePart .greetings .greetings__firstPart {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #55729c;
+}
+.container .homePart .greetings .greetings__secondPart {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #55729c;
+}
+.container .homePart .greetings .greetings__thirdPart {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #55729c;
+}
 .container .projectsPart {
-  height: 50rem;
+  height: 100vh;
   width: 90rem;
   background-color: #55729c;
 }
 .container .aboutPart {
-  height: 50rem;
+  height: 100vh;
   width: 90rem;
   background-color: #f4eede;
 }
 .container .contactPart {
-  height: 50rem;
+  height: 100vh;
   width: 90rem;
   background-color: #55729c;
 }
