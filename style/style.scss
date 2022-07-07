@@ -1,0 +1,55 @@
+// imports
+
+@import './import/font.scss';
+@import './variables/variables.scss';
+
+
+/**
+* Desktop style
+*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+
+    font-family: $mainFont;
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+
+    margin: auto;
+    width: 90rem;
+    height: 200rem;
+    
+
+    .homePart {
+        height: 50rem;
+        width: 90rem;
+        background-color: $lightYellow;
+    }
+    .projectsPart {
+        height: 50rem;
+        width: 90rem;
+        background-color: $lightBlue;
+    }
+    .aboutPart {
+        height: 50rem;
+        width: 90rem;
+        background-color: $lightYellow;
+    }
+    .contactPart {
+        height: 50rem;
+        width: 90rem;
+        background-color: $lightBlue;
+    }
+}
